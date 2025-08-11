@@ -1,7 +1,7 @@
 Model:
   # Base Arch
-  clip_pretrain: pretrain/ViT-B-16.pt
-  swin_pretrain: pretrain/swin_base_patch4_window7_224_22k.pth
+  clip_pretrain: UniLSeg/pretrain/ViT-B-16.pt
+  swin_pretrain: UniLSeg/pretrain/swin_base_patch4_window7_224_22k.pth
   aux_loss: True
   input_size: 480
   word_len: 17
@@ -20,4 +20,4 @@ Model:
   text_in: 512
   d_model: 256
   # Model Path
-  model_dir: UniLSeg20_no_finetune.pth
+  model_dir: UniLSeg/UniLSeg20_no_finetune.pth
