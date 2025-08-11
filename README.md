@@ -24,7 +24,7 @@ pip install -r requirement.txt
 ```
 
 ### 2. 下载预训练模型
-从 [Google Drive](https://drive.google.com/drive/folders/1llKmPaOUhsAqxtopFdfnIBAlspvw_I4I?usp=drive_link) 下载 `UniLSeg20_no_finetune.pth` 并放置在项目根目录。
+从 [Google Drive](https://drive.google.com/drive/folders/1llKmPaOUhsAqxtopFdfnIBAlspvw_I4I?usp=drive_link) 下载 `UniLSeg20_no_finetune.pth`文件和`pretrain`文件夹并放置在项目根目录（这里文件的具体目录是UniLSeg/UniLSeg/pretrain和UniLSeg/UniLSeg/UniLSeg20_no_finetune.pth）。
 
 ### 3. 基本使用
 ```bash
